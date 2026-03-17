@@ -41,8 +41,8 @@ function Home(){
                 return(
                     <article key={filmes.id}>
                         <strong>{filmes.title}</strong>
-                        <img src={`https://image.tmdb.org/t/p/original/${filmes.poster_path}`} alt="{filme.title" />
-                         <Link to={`/filmes/${filmes.id}`}>Acessar</Link>
+                        <img src={`https://image.tmdb.org/t/p/original/${filmes.poster_path}`} alt="{filme.title}" />
+                         <Link to={`/filme/${filmes.id}`}>Acessar</Link>
                     </article>
                 )
               })}  
