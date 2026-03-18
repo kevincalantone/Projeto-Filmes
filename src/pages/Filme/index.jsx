@@ -47,6 +47,7 @@ function Filme(){
 
         if(hasFilme){
             alert("ESSE FILME JÁ ESTÁ NA LISTA")
+            return
         }
 
         filmesSalvos.push(filme)
