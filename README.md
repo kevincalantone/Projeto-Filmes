@@ -1,97 +1,42 @@
-# 🎬 Projeto Filmes (React)
+# 🎬 PrimeFlix
 
-Projeto desenvolvido com **React** para exibição de filmes populares consumindo uma API externa. A aplicação permite visualizar listas de filmes, detalhes e tratamento de rotas inválidas.
-
----
-
-## 🚀 Tecnologias utilizadas
-
-* React
-* Vite
-* JavaScript
-* Axios
-* React Router
-* CSS
+Aplicação web desenvolvida em React para exibição de filmes, consumo de API e gerenciamento de favoritos.
 
 ---
 
-## 📚 Sobre o projeto
+## 🚀 Funcionalidades
 
-Este projeto foi desenvolvido com o objetivo de praticar conceitos fundamentais do desenvolvimento front-end utilizando React, como:
-
-* Consumo de API
-* Componentização
-* Gerenciamento de estado
-* Rotas com React Router
-* Tratamento de erros (404)
-* Controle de carregamento (loading)
+- 🔍 Listagem de filmes
+- 📄 Página de detalhes do filme
+- ⭐ Sistema de favoritos
+- 💾 Persistência de dados (localStorage)
+- 🔔 Notificações com React Toastify
+- 🎬 Redirecionamento para trailer no YouTube
 
 ---
 
-## 🎯 Funcionalidades
+## 🛠️ Tecnologias utilizadas
 
-* 📌 Listagem de filmes populares
-* 🔎 Consumo de API externa
-* ⏳ Tela de carregamento durante requisições
-* ❌ Página de erro 404 para rotas inválidas
-* 📱 Interface simples e responsiva
+- React.js
+- JavaScript (ES6+)
+- HTML5 & CSS3
+- Axios
+- React Router DOM
+- React Toastify
 
 ---
 
-## 🖥️ Como rodar o projeto
-
-### 1️⃣ Clone o repositório
+## 📦 Instalação e execução
 
 ```bash
-git clone https://github.com/kevincalantone/Projeto-Filmes.git
-```
+# Clone o repositório
+git clone https://github.com/seu-usuario/seu-repo.git
 
----
-
-### 2️⃣ Acesse a pasta
-
-```bash
+# Acesse a pasta
 cd Projeto-Filmes
-```
 
----
-
-### 3️⃣ Instale as dependências
-
-```bash
+# Instale as dependências
 npm install
-```
 
----
-
-### 4️⃣ Execute o projeto
-
-```bash
+# Execute o projeto
 npm run dev
-```
-
----
-
-## 🌐 Acesse no navegador
-
-```
-http://localhost:5173
-```
-
----
-
-## 📌 Status do projeto
-
-🚧 Em desenvolvimento
-
----
-
-## 📖 Observações
-
-Este projeto foi desenvolvido para fins de estudo com base em um curso da Udemy.
-
----
-
-## 👨‍💻 Autor
-
-Desenvolvido por Kevin Calantone
